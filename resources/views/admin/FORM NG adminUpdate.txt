@@ -1,0 +1,30 @@
+  <!-- <form id="blogForm" enctype="multipart/form-data">
+                    <div class="max-w-screen-xl mx-auto bg-neutral-900 p-6 rounded-md">
+                        <h1 class="text-center text-white text-2xl md:text-4xl font-bold pb-4">Create Blog</h1>
+                        <div class="mb-4">
+                            <label for="title" class="block text-white font-bold mb-2">Blog Title</label>
+                            <input type="text" id="title" name="title" class="w-full p-2 rounded bg-neutral-600 text-white placeholder-neutral-400" placeholder="<?= $row['title'] ?>" value="<?= $row['title'] ?>" required />
+                        </div>
+                        <input type="hidden" id="id" name="id" value="<?php echo $_GET['id']; ?>">
+                        <div class="mb-4">
+                            <label for="category" class="block text-white font-bold mb-2">Category</label>
+                            <select id="category" name="category" class="w-full p-2 rounded bg-neutral-600 text-white" required>
+                                <option value="" disabled <?= empty($row['category']) ? 'selected' : '' ?>>Select a category</option>
+                                <option value="Software" <?= $row['category'] == 'Software' ? 'selected' : '' ?>>Software</option>
+                                <option value="Hardware" <?= $row['category'] == 'Hardware' ? 'selected' : '' ?>>Hardware</option>
+                                <option value="Internet of Things (IoT)" <?= $row['category'] == 'Internet of Things (IoT)' ? 'selected' : '' ?>>Internet of Things (IoT)</option>
+                                <option value="Cloud Computing" <?= $row['category'] == 'Cloud Computing' ? 'selected' : '' ?>>Cloud Computing</option>
+                                <option value="Artificial Intelligence (AI)" <?= $row['category'] == 'Artificial Intelligence (AI)' ? 'selected' : '' ?>>Artificial Intelligence (AI)</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label for="image" class="block text-white font-bold mb-2">Upload Image</label>
+                            <input type="file" id="image" name="image" accept="image/*" class="w-full p-2 rounded bg-neutral-600 text-white" />
+                        </div>
+                        <div class="mb-4">
+                            <label for="content" class="block text-white font-bold mb-2">Content</label>
+                            <textarea id="content" name="content"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded">Update Blog</button>
+                    </div>
+                </form> -->
